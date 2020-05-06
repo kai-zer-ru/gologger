@@ -236,8 +236,6 @@ func TestTelegram(t *testing.T) {
 			return
 		}
 	}
-	// token = "516412349:AAFEOI9n_opTuXrWYA6EuiB6eFNHKYdlzgE"
-	// channelInt64 = int64(219701681)
 	fileName := "main.log"
 	log := Logger{}
 	log.SetLogFileName(fileName)
