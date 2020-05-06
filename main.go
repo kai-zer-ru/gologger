@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"gitlab.sarafann.com/kaizer/log4go"
+	"github.com/kaizer666/log4go"
 )
 
 var (
