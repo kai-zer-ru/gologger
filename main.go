@@ -215,7 +215,7 @@ func (log *Logger) sendToTlg(level, text string) {
 		log.telegram.message = fmt.Sprintf("%s %s: %s", log.telegramMessagePrefix, level, text)
 		err := log.telegram.SendMessageToTelegram()
 		if err != nil {
-			panic(err)
+			fmt.Print(err)
 		}
 	}
 }
